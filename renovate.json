@@ -1,24 +1,10 @@
-      module.exports = {                                                 
-        endpoint: '<placeholderforthenonpublicendpoint>',                   
-        platform: 'github',                                              
-        token: 'ee4b5620c357446d4c945d64b4fcdd7c21234f42',                                               
-        onboarding: true,                                                
-        onboardingConfig: {                                              
-          ignorePaths: [                                                 
-            '<placeholderforthenonpublicpath>' 
-          ],                                                             
-          enabledManagers: [                                             
-            'dockerfile'                                                     
-          ],                                                             
-          baseBranches: [                                                
-            'Test-Renovate'                                      
-          ],                                                             
-          pinDigests: true                                               
-        },                                                               
-        repositories: [                                                  
-          {                                                              
-            repository: 'badaboum79/testreno',                                 
-                                                                         
-          }                                                              
-        ]                                                                
-      }; 
+{
+  "extends": [
+    "config:base",
+    ":skipStatusChecks"
+  ],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  }
+
