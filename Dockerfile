@@ -1,5 +1,5 @@
 # our base image
-FROM python:3-onbuild
+FROM python:3-onbuild@sha256:76df62c122c910751d8cd3101f8e3da39efd4ee828686b7ff0b5a5b1d967553f
 
 # specify the port number the container should expose
 EXPOSE 5000
