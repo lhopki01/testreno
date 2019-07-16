@@ -2,7 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "pinDigests": false,
+  "pinDigests": true,
   "automerge": true,
   "major": {
     "automerge": false
