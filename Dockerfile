@@ -1,5 +1,5 @@
 # our base image
-FROM eu.gcr.io/karhoo-common/karhoo-alpine
+FROM alpine:3.7
 
 # specify the port number the container should expose
 EXPOSE 5000
