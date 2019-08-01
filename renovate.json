@@ -2,7 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "logLevel": 'debug',
+  "logLevel": "debug",
   "dryRun": true,
   "pinDigests": true,
   "automerge": true,
