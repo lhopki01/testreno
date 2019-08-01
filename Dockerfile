@@ -1,5 +1,5 @@
 # our base image
-FROM alpine:3.8.4
+FROM node:8
 
 # specify the port number the container should expose
 EXPOSE 5000
