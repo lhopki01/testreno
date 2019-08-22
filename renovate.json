@@ -3,7 +3,7 @@
     "config:base"
   ],
   "logLevel": "debug",
-  "dryRun": true,
+  "dryRun": false,
   "pinDigests": true,
   "automerge": true,
   "major": {
